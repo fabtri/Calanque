@@ -58,16 +58,40 @@
 		BDC50DAC2347E047001082A0 /* Calanque2 */ = {
 			isa = PBXGroup;
 			children = (
+				BDC50DC42347E587001082A0 /* Modele */,
+				BDC50DC52347E58D001082A0 /* Vue */,
+				BDC50DC62347E594001082A0 /* Controller */,
 				BDC50DAD2347E047001082A0 /* AppDelegate.swift */,
 				BDC50DAF2347E047001082A0 /* SceneDelegate.swift */,
-				BDC50DB12347E047001082A0 /* FirstViewController.swift */,
-				BDC50DB32347E047001082A0 /* SecondViewController.swift */,
 				BDC50DB52347E047001082A0 /* Main.storyboard */,
 				BDC50DB82347E05E001082A0 /* Assets.xcassets */,
 				BDC50DBA2347E05E001082A0 /* LaunchScreen.storyboard */,
 				BDC50DBD2347E05E001082A0 /* Info.plist */,
 			);
 			path = Calanque2;
+			sourceTree = "<group>";
+		};
+		BDC50DC42347E587001082A0 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		BDC50DC52347E58D001082A0 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		BDC50DC62347E594001082A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDC50DB32347E047001082A0 /* SecondViewController.swift */,
+				BDC50DB12347E047001082A0 /* FirstViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
