@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		BDC50DAE2347E047001082A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DAD2347E047001082A0 /* AppDelegate.swift */; };
 		BDC50DB02347E047001082A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DAF2347E047001082A0 /* SceneDelegate.swift */; };
-		BDC50DB22347E047001082A0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DB12347E047001082A0 /* FirstViewController.swift */; };
-		BDC50DB42347E047001082A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DB32347E047001082A0 /* SecondViewController.swift */; };
 		BDC50DB72347E047001082A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC50DB52347E047001082A0 /* Main.storyboard */; };
 		BDC50DB92347E05E001082A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC50DB82347E05E001082A0 /* Assets.xcassets */; };
 		BDC50DBC2347E05E001082A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC50DBA2347E05E001082A0 /* LaunchScreen.storyboard */; };
+		BDC50DC82347E66F001082A0 /* Calanque.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DC72347E66F001082A0 /* Calanque.swift */; };
+		BDC50DCA2347E7F8001082A0 /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DC92347E7F8001082A0 /* CalanqueCollection.swift */; };
+		BDC50DCC2347E975001082A0 /* ControllerWithTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DCB2347E975001082A0 /* ControllerWithTableViewViewController.swift */; };
+		BDC50DCE2347E99B001082A0 /* ControlerWithCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DCD2347E99B001082A0 /* ControlerWithCard.swift */; };
+		BDC50DD02347E9B6001082A0 /* ControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DCF2347E9B6001082A0 /* ControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDC50DAA2347E047001082A0 /* Calanque2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calanque2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC50DAD2347E047001082A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC50DAF2347E047001082A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDC50DB12347E047001082A0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BDC50DB32347E047001082A0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BDC50DB62347E047001082A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDC50DB82347E05E001082A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDC50DBB2347E05E001082A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDC50DBD2347E05E001082A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC50DC72347E66F001082A0 /* Calanque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanque.swift; sourceTree = "<group>"; };
+		BDC50DC92347E7F8001082A0 /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
+		BDC50DCB2347E975001082A0 /* ControllerWithTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerWithTableViewViewController.swift; sourceTree = "<group>"; };
+		BDC50DCD2347E99B001082A0 /* ControlerWithCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlerWithCard.swift; sourceTree = "<group>"; };
+		BDC50DCF2347E9B6001082A0 /* ControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 		BDC50DC42347E587001082A0 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				BDC50DC72347E66F001082A0 /* Calanque.swift */,
+				BDC50DC92347E7F8001082A0 /* CalanqueCollection.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -88,8 +96,9 @@
 		BDC50DC62347E594001082A0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BDC50DB32347E047001082A0 /* SecondViewController.swift */,
-				BDC50DB12347E047001082A0 /* FirstViewController.swift */,
+				BDC50DCB2347E975001082A0 /* ControllerWithTableViewViewController.swift */,
+				BDC50DCD2347E99B001082A0 /* ControlerWithCard.swift */,
+				BDC50DCF2347E9B6001082A0 /* ControllerTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,10 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDC50DB42347E047001082A0 /* SecondViewController.swift in Sources */,
-				BDC50DB22347E047001082A0 /* FirstViewController.swift in Sources */,
+				BDC50DCE2347E99B001082A0 /* ControlerWithCard.swift in Sources */,
+				BDC50DD02347E9B6001082A0 /* ControllerTableViewController.swift in Sources */,
+				BDC50DC82347E66F001082A0 /* Calanque.swift in Sources */,
 				BDC50DAE2347E047001082A0 /* AppDelegate.swift in Sources */,
 				BDC50DB02347E047001082A0 /* SceneDelegate.swift in Sources */,
+				BDC50DCA2347E7F8001082A0 /* CalanqueCollection.swift in Sources */,
+				BDC50DCC2347E975001082A0 /* ControllerWithTableViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
