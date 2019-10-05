@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD6692382348B1F9005DD13E /* ImageRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6692372348B1F9005DD13E /* ImageRound.swift */; };
 		BDC50DAE2347E047001082A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DAD2347E047001082A0 /* AppDelegate.swift */; };
 		BDC50DB02347E047001082A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DAF2347E047001082A0 /* SceneDelegate.swift */; };
 		BDC50DB72347E047001082A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC50DB52347E047001082A0 /* Main.storyboard */; };
@@ -17,9 +18,11 @@
 		BDC50DCC2347E975001082A0 /* ControllerWithTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DCB2347E975001082A0 /* ControllerWithTableViewViewController.swift */; };
 		BDC50DCE2347E99B001082A0 /* ControlerWithCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DCD2347E99B001082A0 /* ControlerWithCard.swift */; };
 		BDC50DD02347E9B6001082A0 /* ControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DCF2347E9B6001082A0 /* ControllerTableViewController.swift */; };
+		BDC50DD22347EF74001082A0 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DD12347EF74001082A0 /* CalanqueCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD6692372348B1F9005DD13E /* ImageRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRound.swift; sourceTree = "<group>"; };
 		BDC50DAA2347E047001082A0 /* Calanque2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calanque2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC50DAD2347E047001082A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC50DAF2347E047001082A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		BDC50DCB2347E975001082A0 /* ControllerWithTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerWithTableViewViewController.swift; sourceTree = "<group>"; };
 		BDC50DCD2347E99B001082A0 /* ControlerWithCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlerWithCard.swift; sourceTree = "<group>"; };
 		BDC50DCF2347E9B6001082A0 /* ControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerTableViewController.swift; sourceTree = "<group>"; };
+		BDC50DD12347EF74001082A0 /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		BDC50DC52347E58D001082A0 /* Vue */ = {
 			isa = PBXGroup;
 			children = (
+				BDC50DD12347EF74001082A0 /* CalanqueCell.swift */,
+				BD6692372348B1F9005DD13E /* ImageRound.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -181,6 +187,8 @@
 				BDC50DB02347E047001082A0 /* SceneDelegate.swift in Sources */,
 				BDC50DCA2347E7F8001082A0 /* CalanqueCollection.swift in Sources */,
 				BDC50DCC2347E975001082A0 /* ControllerWithTableViewViewController.swift in Sources */,
+				BDC50DD22347EF74001082A0 /* CalanqueCell.swift in Sources */,
+				BD6692382348B1F9005DD13E /* ImageRound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
