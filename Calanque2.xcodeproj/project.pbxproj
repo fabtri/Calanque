@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD6692382348B1F9005DD13E /* ImageRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6692372348B1F9005DD13E /* ImageRound.swift */; };
+		BD66923A2348B83F005DD13E /* CalanqueAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6692392348B83F005DD13E /* CalanqueAlternative.swift */; };
 		BDC50DAE2347E047001082A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DAD2347E047001082A0 /* AppDelegate.swift */; };
 		BDC50DB02347E047001082A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC50DAF2347E047001082A0 /* SceneDelegate.swift */; };
 		BDC50DB72347E047001082A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC50DB52347E047001082A0 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		BD6692372348B1F9005DD13E /* ImageRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRound.swift; sourceTree = "<group>"; };
+		BD6692392348B83F005DD13E /* CalanqueAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueAlternative.swift; sourceTree = "<group>"; };
 		BDC50DAA2347E047001082A0 /* Calanque2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calanque2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC50DAD2347E047001082A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC50DAF2347E047001082A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				BDC50DD12347EF74001082A0 /* CalanqueCell.swift */,
 				BD6692372348B1F9005DD13E /* ImageRound.swift */,
+				BD6692392348B83F005DD13E /* CalanqueAlternative.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDC50DCE2347E99B001082A0 /* ControlerWithCard.swift in Sources */,
+				BD66923A2348B83F005DD13E /* CalanqueAlternative.swift in Sources */,
 				BDC50DD02347E9B6001082A0 /* ControllerTableViewController.swift in Sources */,
 				BDC50DC82347E66F001082A0 /* Calanque.swift in Sources */,
 				BDC50DAE2347E047001082A0 /* AppDelegate.swift in Sources */,
